@@ -1,0 +1,90 @@
+/* src/App.css */
+
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.App-header {
+  background: linear-gradient(135deg, #282c34, #4a4e69);
+  color: white;
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+  margin: 0 auto;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.App-header:hover {
+  background: linear-gradient(135deg, #3b4049, #606c88);
+  transform: scale(1.02);
+}
+
+.App-header h1 {
+  margin-bottom: 20px;
+  font-size: 2.5em;
+  animation: fadeIn 1.5s ease-in-out;
+}
+
+.wallet-connect,
+.wallet-connected {
+  background-color: #61dafb;
+  color: white;
+  border: none;
+  padding: 12px 24px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  margin-top: 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.wallet-connect:hover {
+  background-color: #4ca7e1;
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.wallet-connected {
+  background-color: #4caf50; /* Green color when wallet is connected */
+}
+
+.wallet-connected:hover {
+  background-color: #388e3c; /* Darker green on hover */
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.App-header p {
+  margin-top: 20px;
+  font-size: 18px;
+  animation: fadeIn 2s ease-in-out;
+}
+
+.message {
+  margin-top: 20px;
+  font-size: 16px;
+  color: #ff6347; /* Tomato color for messages */
+  animation: fadeIn 2.5s ease-in-out;
+}
+
+footer {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #666;
+}
+
+/* Animation Keyframes */
+@keyframes fadeIn {
+  0% { opacity: 0; transform: translateY(-20px); }
+  100% { opacity: 1; transform: translateY(0); }
+}
