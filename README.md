@@ -25,7 +25,6 @@ Cloning and Setting Up
 Clone your existing public and src directories into the newly created React app directory (my-web3-app):
 
 ```bash
-Copy code
 $ git clone https://github.com/H-crowe/3connect-wallet.git
 $ cd 3connect-wallet
 ```
@@ -34,7 +33,6 @@ Installing Dependencies
 Navigate to the src directory of your React app and install the required dependencies:
 
 ```bash
-Copy code
 $ cd 3connect-wallet/src
 $ npm install
 ```
@@ -44,7 +42,6 @@ Starting the Development Server
 After installing dependencies, start the development server to run the 3connect-wallet locally:
 
 ```bash
-Copy code
 $ npm start
 ```
 
